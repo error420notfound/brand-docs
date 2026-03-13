@@ -1,0 +1,127 @@
+.main {
+  padding: 4rem 0;
+  background: var(--ifm-background-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  border: 1px solid var(--brand-border);
+  border-radius: 14px;
+  padding: 2rem;
+  background: var(--brand-surface);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.cardEmoji {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardDescription {
+  font-size: 0.9rem;
+  color: var(--brand-muted);
+  flex: 1;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.cardLink {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--brand-accent);
+  text-decoration: none;
+}
+
+.cardLink:hover {
+  text-decoration: underline;
+}
+
+/* Hero CTA buttons */
+.heroCta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #ffffff;
+  color: var(--brand-ink) !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  transition: opacity 0.15s;
+}
+
+.ctaPrimary:hover { opacity: 0.85; }
+
+.ctaSecondary {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.85) !important;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  transition: border-color 0.15s;
+}
+
+.ctaSecondary:hover { border-color: rgba(255,255,255,0.6); }
+
+/* Quick links */
+.quickLinks {
+  border-top: 1px solid var(--brand-border);
+  padding-top: 3rem;
+}
+
+.sectionLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--brand-muted);
+  margin-bottom: 1.25rem;
+}
+
+.linkGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.quickLink {
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--brand-border);
+  border-radius: 100px;
+  font-size: 0.85rem;
+  color: var(--brand-ink);
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.quickLink:hover {
+  border-color: var(--brand-accent);
+  color: var(--brand-accent);
+  text-decoration: none;
+}

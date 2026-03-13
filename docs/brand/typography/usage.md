@@ -1,0 +1,10 @@
+---
+id: usage
+title: Typography Usage
+---
+
+# Typography Usage
+
+:::note Coming Soon
+This section is under construction. Content will be added here soon.
+:::
