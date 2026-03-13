@@ -13,7 +13,7 @@ const sidebars: SidebarsConfig = {
       label: '🪄 Logos',
       collapsed: false,
       items: [
-        'brand-logos-usage',
+        'brand/logos/usage',
         'brand/logos/clearspace',
         'brand/logos/variations',
         'brand/logos/dont',
