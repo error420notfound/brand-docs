@@ -11,10 +11,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // GitHub Pages deployment
-  url: 'https://YOUR-GITHUB-USERNAME.github.io',
+  url: 'https://error420notfound.github.io',
   baseUrl: '/brand-docs/',
 
-  organizationName: 'YOUR-GITHUB-USERNAME', // GitHub org/user
+  organizationName: 'error420notfound', // GitHub org/user
   projectName: 'brand-docs',                // GitHub repo name
   trailingSlash: false,
 
@@ -32,7 +32,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/YOUR-GITHUB-USERNAME/brand-docs/tree/main/',
+          editUrl: 'https://github.com/error420notfound/brand-docs/tree/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
@@ -80,7 +80,7 @@ const config: Config = {
           label: '📣 Marketing',
         },
         {
-          href: 'https://github.com/YOUR-GITHUB-USERNAME/brand-docs',
+          href: 'https://github.com/error420notfound/brand-docs',
           label: 'GitHub',
           position: 'right',
         },
