@@ -1,5 +1,4 @@
 ---
-id: brand/logos/usage
 title: Logo Usage
 ---
 
